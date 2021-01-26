@@ -1,0 +1,90 @@
+{
+    "name": "PlayerControl",
+    "maps": [
+        {
+            "name": "Terrain",
+            "id": "296ae6c3-01a1-4f4f-9ec5-a2f3833c182b",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "PassThrough",
+                    "id": "9a75ddae-d4e5-405c-88be-e6f5e3898662",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move",
+                    "type": "PassThrough",
+                    "id": "072ecb00-3836-441e-b163-a496d12dfbda",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "19d317a6-4e4c-4b96-b568-cda03bc4edf3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0c20efb8-3704-41c3-a553-efafd5672e12",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0da8b4ad-46f2-4402-954a-e9b54e5a242f",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Mouse",
+            "id": "d6862be0-ab4d-4ad1-88fa-50fc1f643730",
+            "actions": [
+                {
+                    "name": "Position",
+                    "type": "PassThrough",
+                    "id": "5eb2adc6-0f2f-417a-a694-0b453cae6bc2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c32b3be8-7daf-49ab-8a66-3d03bf8dedb3",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
